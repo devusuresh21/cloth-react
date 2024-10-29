@@ -1,0 +1,54 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center all items within the header */
+    position: relative;
+    padding: 1rem; /* Adjust padding as needed */
+    background-color: #54198f;
+    color: #fcf7f9;
+  }
+  
+  .logo {
+    font-family: "Dancing Script", serif; /* Keep your chosen font */
+    font-size: 2.5rem; /* Increase the font size for a more prominent appearance */
+    font-weight: bold; /* Make the text bold */
+    text-align: center; /* Center align the logo text */
+    position: absolute; /* Use absolute positioning to center it */
+    left: 50%; /* Move it to the center of the header */
+    transform: translateX(-50%); /* Adjust to center it */
+    color: #f6f0f0; /* Change the color for better visibility */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); /* Optional: add a subtle shadow for depth */
+}
+
+  
+  .search-form {
+    flex: 1; /* Allow the form to grow and take up available space */
+    margin:  1rem; /* Add some margin around the form */
+  }
+  
+  .search-input {
+    width: 150px; /* Take full width of the available space */
+    padding: 10px; /* Add padding for better aesthetics */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 1rem; /* Font size */
+    margin-left: 80%;
+  }
+  
+  .header nav {
+    display: flex;
+    gap: 1.6rem; /* Space between icons */
+    margin-right: 50px; /* Aligns nav to the right */
+    justify-content: space-between;
+  }
+  
+  .header nav a {
+    color: #fcf7f9;
+    font-size: 1.25rem;
+    text-decoration: none;
+  }
+  
+  .header nav a:hover {
+    color: #ed073d; /* Change to your hover color */
+  }
+  
